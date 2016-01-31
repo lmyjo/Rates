@@ -1,0 +1,33 @@
+{
+  "name": "rates",
+  "version": "0.0.0",
+  "description": "Pulling service for financial variables from Banguat",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmyjo/Rates.git"
+  },
+  "keywords": [
+    "rates",
+    "cron",
+    "pull"
+  ],
+  "author": "Julio Osorio <juliodion12345@github.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/lmyjo/Rates/issues"
+  },
+  "homepage": "https://github.com/lmyjo/Rates#readme",
+  "dependencies": {
+    "boom": "^3.1.2",
+    "dotenv": "^2.0.0",
+    "hapi": "^12.1.0",
+    "joi": "^7.2.3",
+    "mongoose": "^4.3.7",
+    "request": "^2.67.0",
+    "soap": "^0.11.4"
+  }
+}
