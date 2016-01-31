@@ -17,21 +17,21 @@ module.exports = [
   },
   {
     method:  'PUT',
-    path:    '/api/{id}/rates',
+    path:    '/api/rates/{id}',
     config:  {
       handler: handlers.putRateHandler
     }
   },
   {
     method:  'DELETE',
-    path:    '/api/{id}/rates',
+    path:    '/api/rates/{id}',
     config:  {
       handler: handlers.deleteRateHandler
     }
   },
   {
     method:  'GET',
-    path:    '/api/{id}/rates',
+    path:    '/api/rates/{id}',
     config:  {
       handler: handlers.getRateIdHandler
     }
